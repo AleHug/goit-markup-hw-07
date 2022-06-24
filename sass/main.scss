@@ -1,4 +1,13 @@
 @import './utils/_variables.scss';
+@import './utils/_visually-hidden.scss';
+
 @import './base/common';
 @import './base/container';
 @import './base/section';
+@import './base/body';
+
+@import './components/_logo';
+@import './components/title';
+@import './loyout/heder';
+
+
