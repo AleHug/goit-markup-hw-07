@@ -1,56 +1,14 @@
-:root {
-  --accent-first-font-family: 'Roboto', sans-serif;
-  --accent-second-font-family: 'Raleway', sans-serif;
-  --accent-first-color: #ffffff;
-  --accent-second-color: #2196f3;
-  --accent-third-color: #757575;
-  --accent-fouhrt-color: #212121;
-  --accent-fifth-color: #f5f4fa;
-  --accent-sixth-color: #afb1b8;
-}
 
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
 
-img {
-  display: block;
-}
 
-.list {
-  list-style: none;
-}
 
-.link {
-  text-decoration: none;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 body {
   font-family: var(--accent-first-font-family);
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 
 /*--------------- Components ---------------*/
 

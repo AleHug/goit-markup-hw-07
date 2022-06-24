@@ -1,11 +1,4 @@
-body {
-    background-color: tomato;
-}
-
-.heder {
-    padding-top: 100px;
-}  
-
-.hero {
-    color: blue;
-}
+@import './utils/_variables.scss';
+@import './base/common';
+@import './base/container';
+@import './base/section';
