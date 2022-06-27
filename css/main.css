@@ -22,6 +22,12 @@
   overflow: hidden;
 }
 
+.customers-list-link, .we-doing-list-overlay, .advanatages-icone-background, .contackt-form-checkbox-label, .modal-close-btn, .social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -69,7 +75,7 @@ body {
   font-family: var(--accent-second-font-family);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.1923076923;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-second-color);
@@ -88,7 +94,7 @@ body {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   color: var(--accent-fouhrt-color);
 }
@@ -98,7 +104,7 @@ body {
   min-width: 200px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   align-self: center;
   cursor: pointer;
@@ -123,9 +129,6 @@ body {
 }
 
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -193,9 +196,6 @@ body {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 30px;
   height: 30px;
   padding: 0;
@@ -216,7 +216,7 @@ body {
 .contact-form-header {
   font-weight: 700;
   font-size: 20px;
-  line-height: 1, 15;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
@@ -233,7 +233,7 @@ body {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1, 17;
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: var(--accent-third-color);
   margin-bottom: 4px;
@@ -242,8 +242,8 @@ body {
 .contact-form-messege {
   display: block;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1, 14;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
 }
 
@@ -291,11 +291,9 @@ body {
 }
 
 .contackt-form-checkbox-label {
-  justify-content: center;
-  display: flex;
-  align-items: center;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: var(--accent-third-color);
   margin-bottom: 30px;
@@ -330,7 +328,7 @@ body {
   min-width: 200px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   align-self: center;
   cursor: pointer;
@@ -379,7 +377,7 @@ body {
   padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: var(--accent-fouhrt-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -411,7 +409,7 @@ body {
   align-items: center;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: var(--accent-third-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -474,7 +472,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.3636363636;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-first-color);
@@ -495,9 +493,6 @@ body {
 }
 
 .advanatages-icone-background {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -522,7 +517,7 @@ body {
 .advantages-subtitle {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -530,8 +525,9 @@ body {
 }
 
 .advantages-text {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: var(--accent-third-color);
 }
@@ -555,9 +551,6 @@ body {
 }
 
 .we-doing-list-overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -566,7 +559,7 @@ body {
   font-family: var(--accent-first-font-family);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.1428571429;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -608,15 +601,16 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.1875;
   letter-spacing: 0.03em;
   color: var(--accent-fouhrt-color);
   margin-bottom: 10px;
 }
 
 .team-position {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.1875;
   letter-spacing: 0.03em;
   margin-bottom: 16px;
   color: var(--accent-third-color);
@@ -646,9 +640,6 @@ body {
 }
 
 .customers-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 92px;
   width: 170px;
   border: 1px solid;
@@ -686,16 +677,18 @@ body {
 }
 
 .footer-address {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: var(--accent-first-color);
 }
 
 .footer-mail,
 .footer-tel {
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -711,7 +704,7 @@ body {
 .footer-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-first-color);
@@ -761,7 +754,7 @@ body {
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.625;
   letter-spacing: 0.03em;
   cursor: pointer;
   background: var(--accent-fifth-color);
@@ -786,8 +779,9 @@ body {
 }
 
 .gallery-description {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--accent-third-color);
 }
@@ -836,7 +830,7 @@ body {
   font-family: var(--accent-first-font-family);
   font-weight: 400;
   font-size: 18px;
-  line-height: 1, 56;
+  line-height: 1.5555555556;
   letter-spacing: 0.03em;
   color: var(--accent-first-color);
   background-color: rgba(33, 150, 243, 0.9);

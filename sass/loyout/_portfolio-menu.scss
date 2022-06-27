@@ -11,9 +11,7 @@
 
 .menu-btn {
   padding: 6px 22px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+   @include font(500, 16px, 26px);
   letter-spacing: 0.03em;
   cursor: pointer;
   background: var(--accent-fifth-color);

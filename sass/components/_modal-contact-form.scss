@@ -4,9 +4,7 @@
 }
 
 .contact-form-header {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1, 15;
+  @include font(700, 20px, 23px);
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
@@ -21,9 +19,7 @@
 
 .contact-form-field-key {
   display: block;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1, 17;
+  @include font(400, 12px, 14px);
   letter-spacing: 0.01em;
   color: var(--accent-third-color);
   margin-bottom: 4px;
@@ -31,9 +27,7 @@
 
 .contact-form-messege {
   display: block;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1, 14;
+  @include font(400, 12px, 14px);
   letter-spacing: 0.01em;
 }
 
@@ -84,11 +78,8 @@
 }
 
 .contackt-form-checkbox-label {
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  line-height: 1.71;
+  @extend %align;
+  @include font(400, 14px, 24px);
   letter-spacing: 0.03em;
   color: var(--accent-third-color);
   margin-bottom: 30px;
@@ -123,9 +114,7 @@
 .contackt-form-btn {
   padding: 10px 32px;
   min-width: 200px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(700, 16px, 30px);
   letter-spacing: 0.06em;
   align-self: center;
   cursor: pointer;

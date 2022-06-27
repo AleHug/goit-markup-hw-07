@@ -12,9 +12,7 @@
 }
 
 .advanatages-icone-background {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -41,9 +39,7 @@
 }
 
 .advantages-subtitle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+   @include font(700, 14px, 16px);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -51,8 +47,7 @@
 }
 
 .advantages-text {
-  font-size: 14px;
-  line-height: 1.71;
+   @include font(400, 14px, 24px);
   letter-spacing: 0.03em;
   color: var(--accent-third-color);
 }

@@ -30,9 +30,7 @@
 
 .navi-link {
   padding: 32px 0;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+   @include font(500, 14px, 16px);
   letter-spacing: 0.02em;
   color: var(--accent-fouhrt-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -65,9 +63,7 @@
 .heder-tel {
   display: flex;
   align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+   @include font(500, 14px, 16px);
   letter-spacing: 0.02em;
   color: var(--accent-third-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);

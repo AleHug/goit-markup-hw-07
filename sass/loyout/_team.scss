@@ -30,17 +30,14 @@
 }
 
 .team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+   @include font(500, 16px, 19px);
   letter-spacing: 0.03em;
   color: var(--accent-fouhrt-color);
   margin-bottom: 10px;
 }
 
 .team-position {
-  font-size: 16px;
-  line-height: 1.19;
+   @include font(400, 16px, 19px);
   letter-spacing: 0.03em;
   margin-bottom: 16px;
   color: var(--accent-third-color);
