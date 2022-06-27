@@ -12,10 +12,10 @@
   border-radius: 4px;
   color: var(--accent-first-color);
   border: transparent;
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: #188ce8;
-  color: var(--accent-first-color);
+  
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    color: var(--accent-first-color);
+  }
 }

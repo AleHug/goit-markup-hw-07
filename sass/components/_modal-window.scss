@@ -23,9 +23,9 @@
   border-radius: 50%;
   background: transparent;
   cursor: pointer;
+  
+    &:hover .modal-close-btn-icon,
+    &:focus .modal-close-btn-icon {
+         fill: var(--accent-second-color);
 }
-
-.modal-close-btn:hover  .modal-close-btn-icon,
-.modal-close-btn:focus  .modal-close-btn-icon {
-  fill: var(--accent-second-color);
 }

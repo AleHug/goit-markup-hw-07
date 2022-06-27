@@ -16,6 +16,12 @@
   border-radius: 50%;
   transition: color 220ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:hover,
+    &:focus {
+      outline: none;
+      background-color: var(--accent-second-color);
+}
 }
 
 .light {
@@ -31,6 +37,11 @@
   width: 20px;
   height: 20px;
   transition: color 220ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    fill: var(--accent-first-color);
+}
 }
 
 .accent-first-color {
@@ -39,15 +50,4 @@
 
 .accent-sixth-color {
     fill: var(--accent-sixth-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--accent-first-color);
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  outline: none;
-  background-color: var(--accent-second-color);
 }
