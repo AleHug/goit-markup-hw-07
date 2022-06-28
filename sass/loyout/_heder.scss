@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.navi-list {
+.navi {
   display: flex;
   align-items: center;
 }
@@ -24,7 +24,7 @@
   margin-right: 93px;
 }
 
-.navi-intem:not(:last-child) {
+.navi__intem:not(:last-child) {
   margin-right: 50px;
 }
 
