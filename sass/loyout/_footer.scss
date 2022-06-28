@@ -9,7 +9,7 @@
   align-items: baseline;
 }
 
-.webstudio-contact {
+.webstudio-block {
   flex-grow: 1;
   margin-right: 70px;
 }
@@ -19,18 +19,18 @@
   margin-bottom: 20px;
 }
 
-.contact-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-address {
+.address__link {
    @include font(400, 14px, 24px);
   letter-spacing: 0.03em;
   color: var(--accent-first-color);
 }
 
-.footer-mail,
-.footer-tel {
+.address__mail,
+.address__tel {
    @include font(500, 14px, 16px);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -40,7 +40,7 @@
   font-style: normal;
 }
 
-.join {
+.join-block {
   margin-right: 93px;
 }
 
@@ -52,11 +52,11 @@
   margin-bottom: 20px;
 }
 
-.footer-newsletter {
+.subscription-block {
    min-width: 570px;
 }
 
-.footer-newsletter-form-input {
+.newsletter-form__input {
   width: 358px;
   height: 50px;
   padding: 16px 15px;
@@ -67,13 +67,13 @@
   background-color: #2F303A;
 }
 
-.footer-newsletter-form-btn {
+.newsletter-form__btn {
   display: inline-flex;
   align-items: center;
   padding: 10px 29px;
 }
 
-.footer-newsletter-form-icon {
+.newsletter-form__icon {
   margin-left: 10px;
   width: 24px;
   height: 24px;
