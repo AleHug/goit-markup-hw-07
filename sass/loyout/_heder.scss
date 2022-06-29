@@ -4,7 +4,7 @@
   border-bottom: 1px solid #ececec;
 }
 
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,11 +20,11 @@
   align-items: center;
 }
 
-.logo-header-link {
+.logo__header {
   margin-right: 93px;
 }
 
-.navi__intem:not(:last-child) {
+.navi__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -42,7 +42,7 @@
 }
 }
 
-.current {
+.navi_current {
   position: relative;
   color: var(--accent-second-color);
   
